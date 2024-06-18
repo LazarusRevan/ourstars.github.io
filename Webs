@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Stars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Stars</h1>
+    </header>
+    <nav>
+        <a href="#chapters">Chapters</a>
+        <a href="#characters">Characters</a>
+        <a href="#factions">Factions</a>
+    </nav>
+    <div class="content">
+        <section id="chapters" class="section">
+            <h2>Chapters Page</h2>
+            <p>Information about the chapters will go here.</p>
+        </section>
+        <section id="characters" class="section">
+            <h2>Characters Page</h2>
+            <p>Information about the characters will go here.</p>
+        </section>
+        <section id="factions" class="section">
+            <h2>Factions Page</h2>
+            <p>Information about the factions will go here.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Our Stars. All rights reserved.</p>
+    </footer>
+</body>
+</html>
